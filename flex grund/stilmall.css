@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+}
+
+
+ .container {
+   display: flex;
+   flex-direction: column;
+   background-color: blue;
+   height: 600px;
+   width: 600px;
+   border-style: solid;
+   border-color: white;
+   border-radius: 30px;
+   /* default = norap*/
+   flex-wrap:wrap;
+   justify-content: space-around;
+   margin: auto;
+   margin-top: 100px;
+ }
+
+.rad {
+  display: flex;
+
+  background-color: yellow;
+  border-style: solid;
+  justify-content: space-around;
+  /* border-radius: 10px;*/
+  /* vidd och höjd följer innehållet*/
+  /* width: 60px;
+  height: 50px;*/
+  align-items: center;
+}
+
+.item {
+width: 80px;
+height: 70px;
+background-color: red;
+border-style: solid;
+border-color: green;
+
+
+}
