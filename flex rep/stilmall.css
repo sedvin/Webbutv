@@ -1,0 +1,29 @@
+ .stor {
+   display: flex;
+   background-color: green;
+   width: 1000px;
+   height: 1000px;
+   flex-direction: column;
+   justify-content: space-around;
+   margin: auto;
+ }
+
+
+.låda {
+  display: flex;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.rad {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+
+}
