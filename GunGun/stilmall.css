@@ -3,20 +3,33 @@ h1{
 color:powderblue;
   font-size: 100px;
 text-align: center;
+
 }
 /* vi kan skapa klasser som har speciella egenskaper*/
-p {
+.container {
     color: powderblue;
-    font-size: 50px;
+    font-size: 75px;
     text-align: center;
+    margin: auto;
+    background-color: black;
+    width:400px;
+    border-style: solid;
+
 }
-div{
+.item1{
+display: none;
+background-color: black;
 color: powderblue;
-font-size: 35px;
+font-size: 50px;
 text-align: center;
-height: 350px;
-width: 300px;
-background-color: ;
+height: 150px;
+width: 400px;
 margin: auto;
+
+}
+
+.container:hover .item1{
+  display: block;
+
 
 }

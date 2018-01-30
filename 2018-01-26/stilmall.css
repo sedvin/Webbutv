@@ -1,0 +1,50 @@
+  body {
+    background-color: darkblue;
+
+  }
+
+ .container{
+   background-color: green;
+
+ }
+
+.dropdown{
+    display: inline-block;
+
+    position:static;
+    height: 125px;
+    width: 1660px;
+
+    font-size: 100px;
+    border-style: groove;
+    border-color: black;
+}
+
+.dropdown-content{
+display:none;
+position: absolute;
+background-color: black;
+border-style: groove;
+border-color: red;
+
+
+}
+
+.dropdown:hover {
+  background-color: red;
+}
+
+.dropdown-content:hover {
+  background-color: red;
+
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+
+
+}
+
+.gul:hover{
+  background-color: yellow;
+}
