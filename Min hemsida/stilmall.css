@@ -1,0 +1,32 @@
+body{
+  background-color: white;
+}
+
+.över{
+  color: navy;
+  border-style: double;
+  width: 200px;
+  height: 75px;
+  margin: auto;
+  font-size: 50px;
+}
+
+.under{
+  width: 100px;
+  height: 25px;
+  color: black;
+  display: none;
+  border-style: double;
+}
+
+.över:hover .under{
+  display: block;
+}
+
+.container{
+  height: 200px;
+  width: 600px;
+  background-color: green;
+  display: flex;
+  margin:auto;
+}
