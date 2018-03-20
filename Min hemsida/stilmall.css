@@ -1,19 +1,27 @@
 body{
-  /*background-color: white;*/
   background-image: url("csgo.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+img{
+  margin-left: 950px;
+  margin-top: 15px;
+  shadow: 100px 100px 10px;
+
+}
+
 .över{
-  color: powderblue;
+  color: darkorange;
   border-style: solid;
-  width: 200px;
+  width: 542px;
   height: 75px;
   margin: auto;
   font-size: 50px;
-  background-color: navy;
+  background-color: black;
+  text-align: center;
+
 }
 
 .under{
@@ -22,6 +30,15 @@ body{
   color: black;
   display: none;
   border-style: double;
+}
+
+h1{
+  font-size: 50px;
+  margin-top: 7px;
+  color: darkorange;
+  border: black;
+  text-shadow: 10px 10px 10px;
+
 }
 
 /* .över:hover .under{
@@ -34,10 +51,10 @@ body{
 }
 
 .container{
-  width: 600px;
-  background-color: black;
+  width: 1626px;
   display: flex;
   flex-direction: row;
   margin: auto;
-  margin-top: 800px;
+  background-color: green;
+  margin-top: 620px;
 }
