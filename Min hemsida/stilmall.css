@@ -1,35 +1,34 @@
 body{
-  background-image: url("csgo.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url("fortnitebackground.jpg");
+  overflow: hidden;
 }
 
 img{
-  margin-left: 950px;
-  margin-top: 15px;
-  shadow: 100px 100px 10px;
+  margin-left: 50px;
+  margin-top: 50px;'
+  z-index: 100;
+  /*shadow: 100px 100px 10px;*/
 
 }
 
 .över{
-  color: darkorange;
+  color:rgb(160, 3, 253);
   border-style: solid;
   width: 542px;
   height: 75px;
   margin: auto;
   font-size: 50px;
-  background-color: black;
+  background-color:rgb(27, 8, 88);
   text-align: center;
 
 }
 
 .under{
-  width: 150px;
-  height: 75px;
+  width: 100px;
+/*  height: 75px; */
   color: black;
   display: none;
-  border-style: double;
+  border-style: solid;
 }
 
 h1{
@@ -41,13 +40,14 @@ h1{
 
 }
 
-/* .över:hover .under{
-  display: block;
-}*/
-
 .över:hover {
   color: white;
   background-color: black;
+}
+
+.över:hover .under{
+display: block;
+
 }
 
 .container{
@@ -56,5 +56,5 @@ h1{
   flex-direction: row;
   margin: auto;
   background-color: green;
-  margin-top: 620px;
+  margin-top: 450px;
 }
