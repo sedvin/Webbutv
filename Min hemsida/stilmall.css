@@ -1,6 +1,7 @@
 body{
   background-image: url("fortnitebackground.jpg");
   overflow: hidden;
+
 }
 
 img{
@@ -29,6 +30,7 @@ img{
   color: black;
   display: none;
   border-style: solid;
+  bottom: 200px;
 }
 
 h1{
