@@ -56,10 +56,15 @@ display: block;
   flex-direction: row;
   margin: auto;
   background-color: green;
-  margin-top: 450px;
+  margin-top: px;
 }
 
 .item {
 padding: 30px;
+
+}
+
+.video{
+
 
 }
