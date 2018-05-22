@@ -1,0 +1,124 @@
+   <!DOCTYPE html>
+   <html lang="sv">
+   <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-widht">
+     <link rel="stylesheet" type="text/css" href="stilmallweapons.css">
+
+          <title>Weapons and loot</title>
+
+   <style>
+   table, th, td {
+       border: 1px solid black;
+       border-collapse: collapse;
+   }
+   th, td {
+       padding: 5px;
+   }
+   th {
+       text-align: left;
+   }
+
+
+
+   </style>
+
+   <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+
+   </head>
+   <body>
+
+     <h1>Weapons and Loot<h1>
+
+   <h2>Weapons in the game</h2>
+
+
+   <table style="width:100%">
+     <tr>
+       <th>Assault rifles</th>
+       <th>Shotguns</th>
+       <th>Snipers</th>
+       <th>Pistols</th>
+     </tr>
+     <tr>
+       <td>Scar</td>
+       <td>Heavy Shotgun</td>
+       <td>Sniper Rifle</td>
+       <td>Hand Cannon</td>
+     </tr>
+     <tr>
+       <td>Famas</td>
+       <td>Pump Shotgun</td>
+       <td>Hunting rifle</td>
+       <td>Revolver</td>
+     </tr>
+     <tr>
+       <td>Burst</td>
+       <td>Tactical Shotgun</td>
+       <td>Auto Sniper</td>
+       <td>Silenced Pistol</td>
+     </tr>
+     <tr>
+       <td>M4</td>
+       <td></td>
+       <td></td>
+       <td>Pistol</td>
+     </tr>
+   </table>
+
+
+   <h2>The Best Weapons</h2>
+
+   <ol>
+     <li>Scar</li>
+     <li>Heavy Shotgun</li>
+     <li>Grenade Launcher</li>
+     <li>Hand Cannon</li>
+     <li>Sniper Rifle</li>
+   </ol>
+
+
+
+
+   <div class="dropdown">
+   <button onclick="myFunction()" class="dropbtn">Click ME</button>
+     <div id="myDropdown" class="dropdown-content">
+       <a href="index.html">Take me back to the main page</a>
+
+     </div>
+   </div>
+
+   <script>
+
+   function myFunction() {
+       document.getElementById("myDropdown").classList.toggle("show");
+   }
+
+
+   window.onclick = function(event) {
+     if (!event.target.matches('.dropbtn')) {
+
+       var dropdowns = document.getElementsByClassName("dropdown-content");
+       var i;
+       for (i = 0; i < dropdowns.length; i++) {
+         var openDropdown = dropdowns[i];
+         if (openDropdown.classList.contains('show')) {
+           openDropdown.classList.remove('show');
+         }
+       }
+     }
+   }
+   </script>
+
+
+
+
+
+
+
+
+
+
+
+   </body>
+   </html>

@@ -32,12 +32,6 @@ img{
   bottom: 0;
 }
 
-a{
-/* GÖR EN SLUMGENERATOR SOM CASE UNBOXING FÖR JAVASCRIPT
-gör helfägrad med en trailer eller video i mitten */
-
-}
-
 }
 
 .över:hover {
@@ -56,7 +50,6 @@ display: block;
   flex-direction: row;
   margin: auto;
   background-color: green;
-  margin-top: px;
 }
 
 .item {
