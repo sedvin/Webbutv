@@ -1,16 +1,19 @@
 body{
   background-image: url("fortnitebackground.jpg");
   overflow: hidden;
-
 }
+
 
 img{
   margin-left: 50px;
   margin-top: 50px;
-
 }
 
-.över{
+iframe{
+border: 0px;
+}
+
+.over{
   color:rgb(160, 3, 253);
   border-style: solid;
   width: 542px;
@@ -19,8 +22,9 @@ img{
   font-size: 50px;
   background-color:rgb(27, 8, 88);
   text-align: center;
-
+  font-family: Arial, serif;
 }
+
 
 .under{
   padding: 30px;
@@ -32,17 +36,17 @@ img{
   bottom: 0;
 }
 
-}
 
-.över:hover {
+.over:hover {
   color: white;
   background-color: black;
 }
 
-.över:hover .under{
-display: block;
 
+.over:hover .under{
+display: block;
 }
+
 
 .container{
   width: 1626px;
@@ -52,12 +56,7 @@ display: block;
   background-color: green;
 }
 
+
 .item {
 padding: 30px;
-
-}
-
-.video{
-
-
 }

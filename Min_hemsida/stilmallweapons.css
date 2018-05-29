@@ -1,21 +1,26 @@
 body{
   background-color: purple;
-
 }
+
 
 table{
   background-color: white;
-
+  box-shadow: 5px 5px;
+  border-radius: 5px;
 }
+
+
 ol{
   background-color: white;
+  box-shadow: 5px 5px;
+  border-radius: 5px;
 }
-h1{
+
+
+h1, h2{
   font-family: 'Fjalla One', sans-serif;
 }
-h2{
-  font-family: 'Fjalla One', sans-serif;
-}
+
 
 .dropbtn {
     background-color: aqua;
@@ -26,14 +31,17 @@ h2{
     cursor: pointer;
 }
 
+
 .dropbtn:hover, .dropbtn:focus {
     background-color: darkblue;
 }
+
 
 .dropdown {
     position: relative;
     display: inline-block;
 }
+
 
 .dropdown-content {
     display: none;
@@ -42,8 +50,8 @@ h2{
     min-width: 160px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
+
 
 .dropdown-content a {
     color: black;
@@ -52,6 +60,7 @@ h2{
     display: block;
 }
 
-.dropdown a:hover {background-color: #ddd}
 
-.show {display:block;}
+.show {
+  display:block;
+}
